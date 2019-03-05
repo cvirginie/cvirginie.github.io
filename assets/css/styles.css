@@ -2678,3 +2678,487 @@ BLOG Pagination
   margin-bottom: 30px; }
 
 /*# sourceMappingURL=styles.css.map */
+
+
+/*
+* Template Name: MD - Responsive Personal Resume / Portfolio template
+* Template URI: http://themeforest.com/user/metrothemes
+* Description:MD - Responsive Personal Resume / Portfolio template
+* Author: Metrothemes
+* Author URI: http://themeforest.com/user/metrothemes
+* Version: 1.0
+*/
+
+
+/*---------------------------------------------------------------------- /
+Table of Contents 
+------------------------------------------------------------------------ /
+
+* 1 - Imported Stylesheets
+* 2 - General Styles
+*   2.1 - Button Styles
+*   2.2 - Social Icons
+* 3 - Header
+*   3.1 - Navigation One
+*   3.2 - Navigation Two
+* 4 - Section
+*   4.1 - Section Title
+* 5 - Parallax
+*   5.1 - Parallax Backgrounds
+* 6 - Home
+* 7 - About
+* 8 - Resume
+*   8.1 - Timeline
+* 9 - Milstone Counters
+* 10 - Service Items
+* 11 - Skill 
+*   11.1 - Skill Chart
+* 12 - Work Process
+* 13 - Portfolio
+*   13.1 - Isotop Transitions
+*   13.2 - Portfolio Single Page
+* 14 - Pricetable BG
+*   14.1 - Priceing
+* 15 - Blog
+* 16 - Clients
+*   16.1 - Testimonials
+*   16.2 - Clients Logo
+* 17 - Contact
+* 18 - Footer
+*   18.1 - Tweet List
+*   18.2 - Footers Widgets
+*   18.3 - Footer Social Icons
+* 19 - Color Switcer   
+* 20 - Preloader
+
+------------------------------------------------------------------------ /
+Table of Contents End
+------------------------------------------------------------------------*/
+
+
+
+
+
+/* 7 - about
+------------------------------------------------------------------------*/
+.img-about{
+    display: block;
+    height: auto;
+    margin-top: 24px;
+    max-width: 100%;
+        box-shadow: 
+        inset 0 0 0 0 rgba(200,95,66, 0.4),
+        inset 0 0 0 16px rgba(255,255,255,0.6),
+        0 1px 2px rgba(0,0,0,0.1);  
+}
+.about-info .info-title p, .about-info .info-details p{
+    color: #7e868e;
+    font-size: 16px;
+    padding-bottom: 0;
+}
+.about-info .info-title{
+    float: left;
+    margin-right: 20px;
+    font-weight: bold;
+}
+.about-info p.about-signature{
+    color: #2c3e50;
+    font-family: 'Arizonia', cursive;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.about-extra h4{
+    color: #7e868e;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.about-extra-icon ul{
+    padding: 0;
+}
+.about-extra-icon ul li{
+    display: inline-block;
+    float: left;
+    margin: 0 36px 10px 0;
+    width: 134px;
+    height: 134px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+}
+.about-extra-icon ul li p{
+    color: #7e868e;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 35px;
+    font-weight: 500;
+}
+.about-extra-icon ul li p i{
+    font-size: 36px;
+}
+
+
+.about-extra-icon-style2 ul{
+    padding: 0;
+}
+.about-extra-icon-style2 ul li {
+    background-color: #f1f1f1;
+    display: inline-block;
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 100px;
+}
+.about-extra-icon-style2 ul li p {
+    color: #7e868e;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 14px;
+    text-align: center;
+}
+.about-extra-icon-style2 ul li p i {
+    font-size: 30px;
+}
+/* 8 - Resume
+------------------------------------------------------------------------*/
+
+
+/* 8.1 - Timeline
+------------------------------------------------------------------------*/
+.timeline {
+    height: 100%;
+}
+.timeline:after, .timeline::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 49.8%;
+    width: 3px;
+    height: 100%;
+    background-color: #dbdde5;
+    z-index: 5;    
+}
+.timeline-category{
+    text-align: center;
+    position: relative;
+    z-index: 6;
+}
+.bt-timeline{
+    display: inline-block;
+    color: #2c3d4f;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    <!-- background-color: #dbdde5;-->
+    padding: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0;
+}
+.timeline-category-icon{
+    margin-top: 20px;
+}
+.edu-cagegory{
+    clear: both;
+}
+.edu-cagegory .iconspace{
+    background-color: #1abb9b;
+}
+.iconspace{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #0bceaf;
+    z-index: 7;
+}
+.iconspace i{
+    font-size: 18px;
+    color: #fff;
+    line-height: 40px;
+}
+.timeline-post-left{
+    text-align: right;
+    width: 50%;
+}
+.timeline-post-right{
+    text-align: left;
+    width: 50%;
+    margin-top: 60px;
+}
+.timeline-post{
+    padding: 10px 25px;
+    float: left;
+    position: relative;
+}
+.timeline-post:first-child{
+    margin-top: 65px;
+}
+.timeline-post-content-holder{
+    padding: 15px;
+	box-shadow: 0px 10px 20px 4px #00000015;
+}
+.timeline-post:hover .timeline-post-content-holder{
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative;
+}
+.timeline-post-left > .timeline-post-content-holder > .timeline-post-icon{
+    position: absolute;
+    right: 0;
+    background-color: #ccd0db;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: -7px;
+    z-index: 6;
+    margin-top: 10px;
+}
+.timeline-post-right > .timeline-post-content-holder > .timeline-post-icon{
+    position: absolute;
+    left: 0;
+    background-color: #ccd0db;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: -7px;
+    z-index: 6;
+    margin-top: 10px;
+}
+.timeline-post-left:hover > .timeline-post-content-holder > .timeline-post-icon{
+    position: absolute;
+    right: 0;
+    background-color: #0bceaf;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: -32px;
+    z-index: 6;
+    margin-top: 10px;
+}
+.timeline-post-right:hover > .timeline-post-content-holder > .timeline-post-icon{
+    position: absolute;
+    left: 0;
+    background-color: #0bceaf;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: -32px;
+    z-index: 6;
+    margin-top: 10px;
+}
+.timeline-post-subtitle span{
+	color:#0bceaf;
+	font-weight: bold;
+	font-size:16px;
+}
+
+.timeline-post-right:hover > .timeline-post-content-holder:before{
+    right: 100%;
+    top: 13%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(255, 255, 255, 0);
+    border-right-color: #fff;
+    border-width: 13px;
+    margin-top: -13px;
+}
+.timeline-post-left:hover > .timeline-post-content-holder:before{
+    left: 100%;
+    top: 13%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(255, 255, 255, 0);
+    border-left-color: #fff;
+    border-width: 13px;
+    margin-top: -13px;
+}
+.timeline-post .timeline-post-title h4{
+    color: black;
+    font-weight: bold;
+}
+.timeline-post .timeline-post-subtitle p{
+    color: #2c3e50;
+    line-height: 28px;
+    font-weight: 400;
+}
+.timeline-post .timeline-post-content{
+    color: #7d878f;
+    line-height: 28px;
+}
+.timeline-post span.timeline-duration{
+    position: relative;
+    padding-left: 15px;
+	color: black;
+}
+.timeline-post span.timeline-duration:before{
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    line-height: 1;
+    background-color: #e74b3b;
+    left: 3px;
+    margin-top: 12px;
+    border-radius: 50%;
+
+}
+
+.timeline-end-icon{
+    position: absolute;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #cbcfdb;
+    color: #5f7183;
+    line-height: 40px;
+    bottom: 0;
+    left: 48.3%;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 6;
+}
+
+/* 13.1 - Isotop transitions
+------------------------------------------------------------------------*/
+.isotope, .isotope .isotope-item {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -ms-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+    
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    -ms-transition-property: height, width;
+    -o-transition-property: height, width;
+    transition-property: height, width;
+}
+    
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    -ms-transition-property: -ms-transform, opacity;
+    -o-transition-property: -o-transform, opacity;
+    transition-property: transform, opacity;
+}
+    
+.isotope.no-transition, .isotope.no-transition .isotope-item, .isotope .isotope-item.no-transition {
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration: 0s;
+    -ms-transition-duration: 0s;
+    -o-transition-duration: 0s;
+    transition-duration: 0s;
+}
+
+/* 19 - Color Switcher
+------------------------------------------------------------------------*/
+.colors-switcher {
+    width:100px;
+    padding:20px 18px 14px 20px;
+    position:fixed;
+    z-index:1993;
+    top:90px;
+    right:0;
+    background-color:#FFFFFF;
+    border-radius:2px 0 0 2px;
+    border:1px solid rgba(0,0,0,.1);
+    -webkit-transition:all .4s ease-in-out;
+    -moz-transition:all .4s ease-in-out;
+    -ms-transition:all .4s ease-in-out;
+    -o-transition:all .4s ease-in-out;
+    transition:all .4s ease-in-out;
+}
+.colors-switcher > p {
+    font-size: 11px;
+    line-height: 0;
+}
+.colors-switcher #show-panel {
+    position:absolute;
+    left:-38px;
+    top:15px;
+    width:38px;
+    height:38px;
+    z-index:1992;
+    display:block;
+    background-color:#FFFFFF;
+    border-radius:2px 0 0 2px;
+    border:1px solid rgba(0,0,0,.1);
+    border-right:none;
+    cursor: pointer;
+}
+.colors-switcher #show-panel i {
+    color: #3D3D3D;
+    font-size: 20px;
+    line-height: 38px;
+    margin-left: 15px;
+}
+.colors-switcher .colors-list {
+    margin:0;
+    padding:0;
+}
+.colors-switcher .colors-list li {
+    float:left;
+    display:block;
+    margin-bottom:2px;
+    margin-right:6px;
+}
+.colors-switcher .colors-list li a {
+    display:inline-block;
+    width:24px;
+    height:24px;
+    border-radius:2px;
+    transition:all 0.2s linear;
+    -moz-transition:all 0.2s linear;
+    -webkit-transition:all 0.2s linear;
+    -o-transition:all 0.2s linear;
+    cursor: pointer;
+}
+.colors-switcher .colors-list li a:hover {
+    box-shadow:inset 0 0 6px rgba(0,0,0,.4);
+}
+.colors-switcher .colors-list a.red {
+    background-color:#f54f36;
+}
+.colors-switcher .colors-list a.orange {
+    background-color:#f4a622;
+}
+.colors-switcher .colors-list a.sun-flower {
+    background-color:#ebbb14;
+}
+.colors-switcher .colors-list a.turquoise {
+    background-color:#1abc9c;
+}
+.colors-switcher .colors-list a.blue {
+    background-color:#4abcdd;
+}
+.colors-switcher .colors-list a.purple {
+    background-color:#9d6fc8;
+}
+.colors-switcher .colors-list a.green {
+    background-color:#b7db48;
+}
+.colors-switcher .colors-list a.emerald {
+    background-color:#2ecc71;
+}
+.colors-switcher .colors-list a.wet-asphalt {
+    background-color:#3c546c;
+}
+.colors-switcher .colors-list a.gray {
+    background-color: #797979;
+}
