@@ -2953,7 +2953,7 @@ Table of Contents End
 .timeline-post-subtitle span{
 	color:#0bceaf;
 	font-weight: bold;
-	font-size:16px;
+	font-size:14px;
 }
 
 .timeline-post-right:hover > .timeline-post-content-holder:before{
@@ -2995,7 +2995,7 @@ Table of Contents End
 }
 .timeline-post .timeline-post-content{
     color: #7d878f;
-    line-height: 28px;
+    /*line-height: 28px;*/
 }
 .timeline-post span.timeline-duration{
     position: relative;
