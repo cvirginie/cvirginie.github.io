@@ -85,9 +85,6 @@
                                     <a class="nav-link" href="#mh-portfolio">Portfolio</a>
                                 </li>                               
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#mh-blog">Blog</a>
-                                </li>
-                                <li class="nav-item">
                                    <a class="nav-link" href="#mh-contact">Contact</a>
                                 </li>
                             </ul>
@@ -295,7 +292,7 @@
            RESUME
         ===================
         -->
-		<section id="resume" class="section mobileHide">
+		<section id="mh-experience" class="section mobileHide">
 			<div class="container">
 				<!-- section title -->
 				<div class="section-title">
@@ -644,15 +641,14 @@
                         <div class="portfolio-nav col-sm-12" id="filter-button">
                             <ul>
                                 <li data-filter="*" class="current wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s"> <span>All Categories</span></li>
-                                <li data-filter=".user-interface" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s"><span>Websites</span></li>
-                                <li data-filter=".branding" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"><span>Mobile</span></li>
-                                <li data-filter=".mockup" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"><span>Mockups</span></li>
-                                <li data-filter=".ui" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s"><span>IoT</span></li>
+                                <li data-filter=".website" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s"><span>Websites</span></li>
+                                <li data-filter=".mobile" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"><span>Mobile</span></li>
+                                <li data-filter=".iot" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s"><span>IoT</span></li>
                             </ul>
                         </div>
                         <div class="mh-project-gallery col-sm-12 wow fadeInUp" id="project-gallery" data-wow-duration="0.8s" data-wow-delay="0.5s">
                             <div class="portfolioContainer row">
-                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 ui mockup">
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 ui iot">
                                     <figure>
                                         <img src="assets/images/portfolio/PostureDetector.jpg" alt="img04">
                                         <figcaption class="fig-caption">
@@ -663,18 +659,18 @@
                                         </figcaption>
                                     </figure>
                                 </div>
-                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 iot">
                                     <figure>
                                         <img src="assets/images/portfolio/jarjarcam1.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fas fa-search"></i>
                                             <h5 class="title">Jarjarcam</h5>
-                                            <span class="sub-title">Counting people in buses - Computer Vision Project for the Connected Car Challenge</span>
+                                            <span class="sub-title">OpenCV IoT Project for the Connected Car Challenge</span>
                                             <a data-fancybox data-src="#mh"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
-                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 branding">
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 mobile">
                                     <figure>
                                         <img src="assets/images/portfolio/huntup5.png" alt="img04">
                                         <figcaption class="fig-caption">
@@ -685,7 +681,7 @@
                                         </figcaption>
                                     </figure>
                                 </div>
-                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 website">
                                     <figure>
                                         <img src="assets/images/portfolio/bdc.png" alt="img04">
                                         <figcaption class="fig-caption">
@@ -696,7 +692,7 @@
                                         </figcaption>
                                     </figure>
                                 </div>
-                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 mobile">
                                     <figure>
                                         <img src="assets/images/portfolio/navishop3.png" alt="img04">
                                         <figcaption class="fig-caption">
@@ -768,7 +764,7 @@
                         </div>
                         <div class="col-sm-12 mh-footer-address">
                             <div class="row">
-                                <div class="col-sm-12 col-md-8">
+                                <!--<div class="col-sm-12 col-md-8">
                                     <form id="contactForm" class="single-form quate-form wow fadeInUp" data-toggle="validator">
 										<div id="msgSubmit" class="h3 text-center hidden"></div>
 										<div class="row">
@@ -784,21 +780,21 @@
 											<div class="col-sm-12">
 												<textarea class="contact-message" id="message" rows="6" placeholder="Your Message" required></textarea>
 											</div>
-											<!-- Subject Button -->
+											
 											<div class="btn-form col-sm-12">
 												<button type="submit" class="btn btn-fill btn-block" id="form-submit">Send Message</button>
 											</div>
 										</div>
 									</form>
-                                </div>
+                                </div> -->
                                 <div class="col-sm-12 col-md-4" style="margin:auto;">
                                     <div class="mh-address-footer-item dark-bg shadow-1 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
                                         <div class="each-icon">
-                                            <i class="fa fa-envelope-o"></i>
+                                            <i class="fas fa-envelope btn-2x"></i>
                                         </div>
                                         <div class="each-info">
                                             <h4>Email</h4>
-                                            <a href="mailto:yourmail@email.com">contact.virginiecornu@gmail.com</a>
+                                            <a style="color:#0056b3" href="contact.virginiecornu@gmail.com">contact.virginiecornu@gmail.com</a>
                                         </div>
                                     </div>
                                 </div>
